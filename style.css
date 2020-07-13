@@ -10,7 +10,7 @@ html {
   margin: 0;
 }
 span {
-  margin-top: 35px;
+  margin-top: 25px;
 }
 .line {
   border-bottom: 1px solid #7cbe00;
@@ -112,6 +112,13 @@ h2 {
   color: orange;
   margin-left: -40px;
   font-size: 14px;
+}
+.icon-six {
+  margin: 0;
+  padding: 20px 20px 0 0;
+  color: orange;
+  margin-left: -40px;
+  font-size: 10px;
 }
 .icon-container {
   display: flex;
