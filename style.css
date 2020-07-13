@@ -10,19 +10,10 @@ html {
   margin: 0;
 }
 span {
-  margin-top:35px
+  margin-top: 35px;
 }
-.line1 {
+.line {
   border-bottom: 1px solid #7cbe00;
-}
-.line2 {
-  border-bottom: 1px solid #7cbe00;
-}
-.line3 {
-  border-bottom: 1px solid #7cbe00;
-}
-.line4 {
-  border-bottom: 40px solid brown ;
 }
 aside {
   width: 40%;
@@ -31,27 +22,26 @@ aside {
 article {
   width: 70%;
 }
-.imag-style{
+.imag-style {
   background-color: #fff;
-  border-radius:100%;
+  border-radius: 100%;
   height: 200px;
   width: 200px;
   text-align: center;
-  margin:auto;
-  margin-top:30px;
-  background-image:
-  url("http://image.dek-d.com/27/0391/4869/119477071");
+  margin: auto;
+  margin-top: 30px;
+  background-image: url('http://image.dek-d.com/27/0391/4869/119477071');
   background-size: cover;
-  border: 1px #ffc107 solid;
 }
 .second-section-style {
   height: 45%;
   text-align: justify;
   color: inherit;
-  margin-top: 35px;
-  margin-left: 25px;
-  margin-right: 20px;
+  margin-top: 20px;
   font-size: 18px;
+}
+.second-section-style p {
+  padding: 0 20px;
 }
 .box {
   display: flex;
@@ -63,12 +53,14 @@ article {
   flex-direction: column;
 }
 .article-direction {
-  margin: 200px 60px 40px 80px;
+  margin: 70px 60px 30px 70px;
   flex-direction: column;
 }
-h{
-  margin-top: 1px;
-  font-size: 50px;
+h1 {
+   font-size: 45px;
+}
+.rule{
+  margin-top:-70px;
 }
 h2 {
   text-align: center;
@@ -77,6 +69,8 @@ h2 {
   background-color: #212121;
   padding: 3px;
   color: orange;
+  margin-left: 0;
+  margin-right: 0;
 }
 .colored {
   color: orange;
@@ -119,12 +113,6 @@ h2 {
   margin-left: -40px;
   font-size: 14px;
 }
-.icon-six {
-  padding: 20px 20px 0 0;
-  color: orange;
-  margin-left: -40px;
-  font-size: 10px;
-}
 .icon-container {
   display: flex;
   justify-content: center;
@@ -134,17 +122,20 @@ h2 {
 @media all and (max-width: 550px) {
   .main-direction {
     flex-direction: column;
-}
+  }
   aside {
     width: 100%;
-}
+  }
   article {
     width: 100%;
-}
-.img-style {
-  height:200Px;
-  width:200px;
-  margin: auto;
-  margin-top:20px;
+  }
+  .article-direction {
+    margin: 0;
+  }
+  .img-style {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
   }
 }
