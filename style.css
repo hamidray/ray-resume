@@ -14,6 +14,7 @@ span {
 }
 .line {
   border-bottom: 1px solid #7cbe00;
+  margin-left:3px;
 }
 aside {
   width: 40%;
@@ -49,6 +50,9 @@ article {
 .main-direction {
   flex-direction: row;
 }
+p rule{
+  margin-left:20px;
+}
 .aside-direction {
   flex-direction: column;
 }
@@ -58,9 +62,18 @@ article {
 }
 h1 {
    font-size: 45px;
+   margin-left:20px
 }
-.rule{
-  margin-top:-70px;
+h1 span{
+  color:#FFC107;
+}
+h3{
+  margin-left:10px;
+  margin-top:30px 
+}
+h4 {
+  margin-top:-40px;
+  margin-left:22px
 }
 h2 {
   text-align: center;
@@ -79,9 +92,10 @@ h2 {
 .side-by-side {
   display: flex;
   flex-direction: row;
+  margin-left:20px
 }
 .side-by-side div {
-  width: 80%;
+  width: 47%;
 }
 .icon-first {
   padding: 20px 20px 0 0;
