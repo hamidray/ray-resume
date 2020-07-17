@@ -57,14 +57,14 @@ article {
   margin: 70px 60px 30px 70px;
   flex-direction: column;
 }
-h1 {
+.right-side-header {
    font-size: 45px;
-   margin-left:20px
+   margin-left:20px;
 }
-h1 span{
+.right-side-header span{
   color:#FFC107;
 }
-h2 {
+.left-side-heading{
   text-align: center;
   font-size: 25px;
   border: 1px solid brown;
@@ -74,11 +74,11 @@ h2 {
   margin-left: 0;
   margin-right: 0;
 }
-h3{
+.right-side-heading{
   margin-left:10px;
   margin-top:30px 
 }
-h4 {
+.right-side-rule {
   margin-top:-40px;
   margin-left:22px
 }
@@ -156,4 +156,5 @@ h4 {
     margin: auto;
     margin-top: 20px;
   }
+  
 }
