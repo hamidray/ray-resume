@@ -89,7 +89,7 @@ article {
 .side-by-side {
   display: flex;
   flex-direction: row;
-  margin-left:15px
+  margin-left:20px
 }
 .side-by-side div {
   width: 47%;
@@ -115,20 +115,20 @@ article {
 .icon-four {
   padding: 20px 20px 0 0;
   color: orange;
-  margin-left: -45px;
+  margin-left: -40px;
   font-size: 20px;
 }
 .icon-five {
   padding: 20px 20px 0 0;
   color: orange;
-  margin-left: -45px;
+  margin-left: -40px;
   font-size: 14px;
 }
 .icon-six {
   margin: 0;
   padding: 20px 20px 0 0;
   color: orange;
-  margin-left: -50px;
+  margin-left: -40px;
   font-size: 10px;
 }
 .icon-container {
